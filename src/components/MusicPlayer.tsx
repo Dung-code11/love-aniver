@@ -50,7 +50,7 @@ export const MusicPlayer = forwardRef<MusicPlayerHandle>((props, ref) => {
         onPause={() => console.log('⏸️ Audio paused')}
         onError={(e) => console.error('❌ Audio error:', e)}
       >
-        <source src="/public/bg-music.mp3" type="audio/mpeg" />
+        <source src="/bg-music.mp3" type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
     </div>
